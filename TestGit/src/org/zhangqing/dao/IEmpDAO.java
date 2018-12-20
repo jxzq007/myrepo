@@ -10,4 +10,6 @@ public interface IEmpDAO {
 	public boolean doUpdate(Emp vo) throws Exception;
 
 	public boolean doRemove(Set<Integer> ids) throws Exception;
+
+	public Integer getAllCount(String column, String keyWord) throws Exception;
 }
